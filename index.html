@@ -84,13 +84,62 @@
       </div>
     </div>
 
+  <!-- Company Section -->
+  <div class="company-section">
+    <h2>🏢 Company-wise DSA Questions</h2>
+    <div class="company-filter">
+      <label for="company-select">Filter by Company:</label>
+      <select id="company-select">
+        <option value="All">All Companies</option>
+        <!-- Options will be populated dynamically -->
+      </select>
+    </div>
+    <div id="company-questions" class="questions-list">
+      <p>Select a company to view questions.</p>
+    </div>
+  </div>
+
+  <!-- Category Section -->
+  <div class="category-section">
+    <h2>📂 Category-wise DSA Questions</h2>
+    <div class="category-filter">
+      <label for="category-select">Filter by Category:</label>
+      <select id="category-select">
+        <option value="All">All Categories</option>
+        <!-- Populated dynamically -->
+      </select>
+    </div>
+    <div id="category-questions" class="questions-list">
+      <p>Select a category to view questions.</p>
+    </div>
+  </div>
+
+  <!-- Study Plan Section -->
+  <div class="study-plan-section">
+    <h2>📅 Study Plans</h2>
+    <div id="study-plans" class="plans-list">
+      <!-- Populated dynamically from JSON -->
+    </div>
+  </div>
+
+  <!-- Extra Stats Section -->
+  <div class="extra-stats">
+    <h2>📈 Overall Stats</h2>
+    <ul>
+      <li><strong>Total Problems:</strong> <span id="total-problems">0</span></li>
+      <li><strong>Average Time/Problem:</strong> <span id="avg-time">--</span></li>
+      <li><strong>Recommended Daily Target:</strong> <span id="daily-target">--</span></li>
+    </ul>
+  </div>
+
+
     <!-- User Feedback Section -->
     <div class="feedback-section">
       <h2>💬 What Our Users Say</h2>
       <div class="feedback-cards">
         <div class="feedback-card">
           <p>“LeetMetric keeps me motivated every day to solve more problems.”</p>
-          <h5>- Mahim, BTech CSE Student</h5>
+          <h5>- Mahim, BTech Student</h5>
         </div>
         <div class="feedback-card">
           <p>“Clean design, quick insights. A must-have for all LeetCode users.”</p>
