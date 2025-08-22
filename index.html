@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LeetMetric</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+
+    <!-- Header Section -->
+    <div class="header">
+      <h1>🚀 LeetMetric</h1>
+      <p>
+        LeetMetric helps you visualize your LeetCode journey. Track your 
+        progress, measure problem-solving skills, and stay motivated with 
+        easy-to-read stats and progress circles.
+      </p>
+
+      <div class="features">
+        <div class="feature-box">
+          <h3>📊 Progress Tracking</h3>
+          <p>See how many Easy, Medium, and Hard problems you’ve solved.</p>
+        </div>
+        <div class="feature-box">
+          <h3>🏆 Rankings</h3>
+          <p>Compare your performance and climb up the leaderboard.</p>
+        </div>
+        <div class="feature-box">
+          <h3>✅ Accuracy</h3>
+          <p>Monitor your acceptance rate to sharpen problem-solving skills.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- User Search Section -->
+    <div class="user-container">
+      <p>Enter your LeetCode username:</p>
+      <div class="user-input-container">
+        <input type="text" placeholder="e.g. dheeraj_1010" id="user-input">
+        <button id="search-btn">Search</button>
+      </div>
+    </div>
+
+    <!-- Stats Section -->
+    <div class="stats-container">
+      <div class="progress">
+        <div class="progress-item">
+          <div class="easy-progress circle">
+            <span id="easy-label">0%</span>
+            <p>Easy</p>
+          </div>
+        </div>
+
+        <div class="progress-item">
+          <div class="medium-progress circle">
+            <span id="medium-label">0%</span>
+            <p>Medium</p>
+          </div>
+        </div>
+
+        <div class="progress-item">
+          <div class="hard-progress circle">
+            <span id="hard-label">0%</span>
+            <p>Hard</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="stats-cards">
+        <div class="card">
+          <h4>Total Problems Solved</h4>
+          <p id="total-solved">0</p>
+        </div>
+        <div class="card">
+          <h4>Ranking</h4>
+          <p id="ranking">--</p>
+        </div>
+        <div class="card">
+          <h4>Acceptance Rate</h4>
+          <p id="acceptance">--%</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- User Feedback Section -->
+    <div class="feedback-section">
+      <h2>💬 What Our Users Say</h2>
+      <div class="feedback-cards">
+        <div class="feedback-card">
+          <p>“LeetMetric keeps me motivated every day to solve more problems.”</p>
+          <h5>- Mahim, BTech CSE Student</h5>
+        </div>
+        <div class="feedback-card">
+          <p>“Clean design, quick insights. A must-have for all LeetCode users.”</p>
+          <h5>- Dheeraj, Developer</h5>
+        </div>
+        <div class="feedback-card">
+          <p>“I love the progress circles, they make tracking so much fun.”</p>
+          <h5>- Aditya, Enthusiast</h5>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+      <p>Made with ❤️ by Team LeetMetric</p>
+      <div class="footer-links">
+        <a href="https://github.com/ProxyCode1010">GitHub</a>
+        <a href="https://leetcode.com/Dheeraj_1010/">LeetCode</a>
+        <a href="mailto:dheerajgunawal1010@gmail.com">Contact</a>
+      </div>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
